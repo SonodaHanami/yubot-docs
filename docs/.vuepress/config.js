@@ -6,7 +6,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
   base: '/yubot-docs/',
-  title: 'yubot',
-  description: '羽bot',
+  title: '羽bot',
+  description: '文档',
 })
 
