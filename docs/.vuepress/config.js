@@ -9,6 +9,8 @@ export default defineUserConfig({
   title: '羽bot',
   description: '文档',
   head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/yubot-docs/favicon_32.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/yubot-docs/favicon_16.png" }],
     [
       'script',
       {
