@@ -17,6 +17,10 @@
 
 你可以在本页面最后看到本文最近一次更新的时间
 
+## 获取羽bot并使用
+
+请看 [使用羽bot](get_yubot.md)
+
 ## 个人中心
 
 羽bot将更新token等操作整合到了 [个人中心](https://yubo.run/bot/user/home/) 页面
