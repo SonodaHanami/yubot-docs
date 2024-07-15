@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:build-gh-pages": "vuepress build docs -c docs/.vuepress/config.gh.js"
   },
   "keywords": [],
   "author": "",

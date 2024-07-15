@@ -5,12 +5,12 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
-  base: '/bot/docs/',
+  base: '/yubot-docs/',
   title: '羽bot',
   description: '文档',
   head: [
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/bot/favicon_32.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/bot/favicon_16.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/yubot-docs/favicon_32.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/yubot-docs/favicon_16.png" }],
     [
       'script',
       {
