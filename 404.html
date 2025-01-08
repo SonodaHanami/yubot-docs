@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/yubot-docs/favicon_32.png"><link rel="icon" type="image/png" sizes="16x16" href="/yubot-docs/favicon_16.png"><script async src="https://www.googletagmanager.com/gtag/js?id=G-MZCWWQJQQT"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MZCWWQJQQT');
+      </script><title>羽bot</title><meta name="description" content="文档">
+    <link rel="preload" href="/yubot-docs/assets/style-CBJpI1UF.css" as="style"><link rel="stylesheet" href="/yubot-docs/assets/style-CBJpI1UF.css">
+    <link rel="modulepreload" href="/yubot-docs/assets/app-B_nz7rp2.js"><link rel="modulepreload" href="/yubot-docs/assets/404.html-CwPTiDll.js">
+    <link rel="prefetch" href="/yubot-docs/assets/index.html-BYVXSG0U.js" as="script"><link rel="prefetch" href="/yubot-docs/assets/get_yubot.html-CGKzXSGa.js" as="script"><link rel="prefetch" href="/yubot-docs/assets/update_token_b.html-_dEMGuKT.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-0c01291c><main class="page" data-v-0c01291c><div class="theme-default-content" data-v-0c01291c><h1 data-v-0c01291c>404</h1><blockquote data-v-0c01291c>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/yubot-docs/" data-v-0c01291c>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/yubot-docs/assets/app-B_nz7rp2.js" defer></script>
+  </body>
+</html>
