@@ -4,6 +4,8 @@
 
 感谢骨头画的头像和图标！
 
+请注意本文档与羽bot本身并非完全同步，羽bot可能会有一些变更未能及时在本文档反映，请以实际体验为准
+
 在群里发送 `@羽bot 文档` ，羽bot会发送如下的指向本页面的链接
 
 <https://yubo.run/bot/docs/>
@@ -23,7 +25,7 @@
 
 ## 个人中心
 
-羽bot将更新token等操作整合到了 [个人中心](https://yubo.run/bot/user/home/) 页面
+羽bot将更新token等操作整合到了 [个人中心](https://yubo.run/user/) 页面
 
 群友登录后可以执行关联账号等相关操作
 
@@ -33,7 +35,7 @@
 
 在群里发送 `@羽bot 个人中心` ，羽bot会发送如下的链接，把它复制到浏览器打开
 
-<https://yubo.run/bot/user/home/>
+<https://yubo.run/user/>
 
 （每次发送的链接都是一样的，能打开就行，不用每次都发送指令）
 
@@ -53,7 +55,7 @@
 
 #### 更新token
 
-在 [羽bot个人中心](https://yubo.run/bot/user/home/) 登录后点击 `更新token` ，按照网页中的说明操作，在第二步记得**全选**
+在 [羽bot个人中心](https://yubo.run/user/) 登录后点击 `更新token` ，按照网页中的说明操作，在第二步记得**全选**
 
 在输入框中填入刚才**全选**复制的token信息，提交后如果成功会在网页和群里收到结果
 
@@ -173,4 +175,4 @@
 
 或者你可以使用紧急自救页面实现自救
 
-<https://yubo.run/bot/user/iambanned.html>
+<https://yubo.run/user/iambanned.html>
